@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BSIT Movies">
+    <meta name="keywords" content="Movie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BSIT - Movie Site Tambayan</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="logos1.ico">
+
+</head>
+
+<body>
+    
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="img1">   <img src="img/logo.png"/></div>
+     
+        <div class="loader">
+            
+        </div>
+    </div>
+    
+
+
+
+
+    
+
+    <!-- Header Section Begin -->
+    <header class="header" id="headerme" style="position: sticky;top: 0;z-index: 99999; ">
+        <div class="container">  
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo" style="width: 166px;">
+                        <a href="./index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Homepage</a></li>
+                                <li><a href="">Categories <span class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="#Trending">Trending Now</a></li>
+                                        <li><a href="#Fmovies">Pinoy Movies</a></li>
+                                        <li><a href="#Amovies">Anime Movies</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html">Our Blog</a></li>
+                                <li><a href="Contact.html">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="./login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero" style="background-image:url(background.gif);background-repeat: no-repeat;background-size: cover;padding-bottom:60px">
+        <div class="container">
+            <div class="hero__slider owl-carousel">
+                <div class="hero__items set-bg" data-setbg="img/hero/spiderman.Png" style="border:solid 4px #169f8c">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label"> Action</div>
+                                <div class="label"> Fantasy</div>
+
+                                <h2>Spider-Man</h2>
+                                <p>After being bitten by a genetically-altered spider, gains superhuman strength and the spider-like ability to cling to any...</p>
+                                <a href="html_movie/Spiderman-watch.html"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__items set-bg" data-setbg="img/hero/deady.png" style="border:solid 4px #169f8c">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Action</div>
+                                <div class="label">Comedy</div>
+
+                                <h2>Deadpool</h2>
+                                <p>Deadpool is a highly trained assassin and mercenary. He is adept in multiple forms of martial arts, including...</p>
+                                <a href="html_movie/Deadpool-watch.html"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__items set-bg" data-setbg="img/hero/squady.jpg" style="border:solid 4px #169f8c">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Action</div>
+                                <div class="label">Superhero</div>
+                                <div class="label">Adventure</div>
+
+                                <h2>Suicide Squad</h2>
+                                <p>A secret government agency recruits some of the most dangerous incarcerated super-villains to...</p>
+                                <a href="html_movie/Suicide-Squad.html"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Product Section Begin -->
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="trending__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title" id="Trending">
+                                    <h4>Trending Now</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                
+                                <div class="product__item"><a href="html_movie/John Wick-Chapter-4.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/john-wick-4.jpg">
+                                   
+                                 
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Action</li>
+                                            <li>Crime</li>
+                                            <li>Thriller</li>
+                                        </ul>
+                                        <h5>John Wick: Chapter 4</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/fastx.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/fastx.jpg">
+                                
+
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Adventure</li>
+                                            <li>Mystery</li>
+                                        </ul>
+                                        <h5>Fast X</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Ghosted.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Ghosted.jpg">
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Romantic</li>
+                                            <li>Comedy</li>
+                                        </ul>
+                                        <h5>Ghosted</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Hypnotic.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Hypnotic.JPG">
+    
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Action</li>
+                                            <li>Thriller</li>
+                                        </ul>
+                                        <h5>Hypnotic</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Extraction2.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Extraction2.jpg">
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Action</li>
+                                            <li>Power</li>
+                                        </ul>
+                                        <h5>Extraction 2</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/The-mother.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Themother_.jpg">
+
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Action</li>
+                                            <li>Adventure</li>
+                                        </ul>
+                                        <h5>The Mother</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="trending__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title" id="Fmovies">
+                                    <h4>Pinoy Movies</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                
+                                <div class="product__item"><a href="html_movie/FourSister.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/4sister.jpg">
+                                   
+                                 
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Family</li>
+                                            <li>Drama</li>
+                                        </ul>
+                                        <h5>Four Sisters and a Wedding</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/TheHouseOfUs.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/TheHouseofUs.jpg">
+                                
+
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Romantic</li>
+                                            <li>Life</li>
+                                        </ul>
+                                        <h5>The Hows of Us</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Unexpectedly-Yours.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Unexpectedly-Yours.jpg">
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Romantic</li>
+                                            <li>Comedy</li>
+                                        </ul>
+                                        <h5>Unexpectedly Yours</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Baby-Boy,-Baby-Girl.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Baby-Boy,-Baby-Girl.jpg">
+    
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Romantic</li>
+                                            <li>Life</li>
+                                        </ul>
+                                        <h5>Baby Boy, Baby Girl</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/I.Love.Lizzy.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/I.Love.Lizzy.jpg">
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Romance</li>
+                                            <li>Life</li>
+                                        </ul>
+                                        <h5>I Love Lizzy</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Doll-House.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Doll-House.jpg">
+
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Drama</li>
+                                            <li>Domestic</li>
+                                        </ul>
+                                        <h5>Doll House</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title" id="Amovies">
+                                    <h4>Anime Movies</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                
+                                <div class="product__item"><a href="html_movie/Doraemon-Stand-by-Me.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Doraemon-Stand-by-Me.jpg">
+                                   
+                                 
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Comedy</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5>Doraemon Stand by Me</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Doraemon-Stand-by-Me2.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/Doraemon-Stand-by-Me2.jpg">
+                                
+
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Comedy</li>
+                                            <li>Cartoons</li>
+                                        </ul>
+                                        <h5>Doraemon Stand by Me 2</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/yourname.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/youname.jpg">
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Drama</li>
+                                            <li>Story</li>
+                                        </ul>
+                                        <h5>Your Name</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/hxhprouge.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/HXHPR.jpg">
+    
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5>Hunter × Hunter: Phantom Rouge</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/silentVoice.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/silentVoice.jpg">
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Fantasy</li>
+                                            <li>Drama</li>
+                                        </ul>
+                                        <h5>A Silent Voice</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item"><a href="html_movie/Weathering-with-You.html">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/weatheringwYOU.jpg">
+
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Romantic</li>
+                                            <li>Fantasy</li>
+                                        </ul>
+                                        <h5>Weathering with You</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="product__sidebar">
+                        <div class="product__sidebar__view">
+                            <div class="section-title">
+                                <h5>Top Views</h5>
+                            </div>
+                            <ul class="filter__controls">
+                                <li class="active" data-filter="*">Day</li>
+                                <li data-filter=".week">Week</li>
+                                <li data-filter=".month">Month</li>
+                                <li data-filter=".years">Years</li>
+                            </ul>
+                            <div class="filter__gallery">
+                                <div class="product__sidebar__view__item set-bg mix day years"
+                                data-setbg="img/sidebar/oldguardjpg.jpg">
+                                <div class="ep">Action / Thriller</div>
+                                <div class="view"><i class="fa fa-eye"></i> 1213</div>
+                                <h5><a href="html_movie/The-old-guard.html">The Old Guard</a></h5>
+                            </div>
+                            <div class="product__sidebar__view__item set-bg mix month week"
+                            data-setbg="img/sidebar/Unfriended-Dark-Web.jpg">
+                            <div class="ep">Mystery / Thriller</div>
+                            <div class="view"><i class="fa fa-eye"></i> 914</div>
+                            <h5><a href="html_movie/dweb.html">Unfriended: Dark Web</a></h5>
+                        </div>
+                        <div class="product__sidebar__view__item set-bg mix week years"
+                        data-setbg="img/sidebar/dollhouse.jpg">
+                        <div class="ep">Domestic Drama</div>
+                        <div class="view"><i class="fa fa-eye"></i> 557</div>
+                        <h5><a href="html_movie/Doll-House.html">Doll House</a></h5>
+                    </div>
+                    <div class="product__sidebar__view__item set-bg mix years month"
+                    data-setbg="img/sidebar/john-wick-4.jpg">
+                    <div class="ep">Action</div>
+                    <div class="view"><i class="fa fa-eye"></i> 471</div>
+                    <h5><a href="html_movie/John Wick-Chapter-4.html">John Wick: Chapter 4</a></h5>
+                </div>
+                <div class="product__sidebar__view__item set-bg mix day"
+                data-setbg="img/sidebar/suicide_squad.jpg">
+                <div class="ep">Adventure</div>
+                <div class="view"><i class="fa fa-eye"></i> 148</div>
+                <h5><a href="html_movie/Suicide-Squad.html">Suicide Squad</a></h5>
+                
+            </div>
+        </div>
+    </div>
+    <div class="product__sidebar__comment">
+        <div class="section-title">
+             <div class="section-title">
+                 <h5>Facebook Page</h5>
+             </div>
+        </div>
+    </div>
+
+    
+    <div class="fb-page" data-href="https://www.facebook.com/AnimeSitePhilippines/" data-tabs="timeline" data-width="" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AnimeSitePhilippines/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AnimeSitePhilippines/">Anime Site PH</a></blockquote></div>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0&appId=369679814709907&autoLogAppEvents=1" nonce="zgVTTsXA"></script>
+    <div class="product__sidebar__comment" style="margin-top:40px;">
+        <div class="section-title">
+            <h5>New Comment</h5>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-1.png" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="html_movie/TheHouseOfUs.html#col-lg-8">The Hows of Us</a></h5>
+                <span><i class="fa fa-eye"></i> Donde Santurdio </br>King Ina mo pangit ng website mo.</span>
+            </div>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-2.png" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="html_movie/John Wick-Chapter-4.html#col-lg-8">John Wick: Chapter 4</a></h5>
+                <span><i class="fa fa-eye"></i> Ivan L. Menderico </br>King Ina mo Mr. Wick</span>
+            </div>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-3.png" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="html_movie/Suicide-Squad.html#col-lg-8">Suicide Squad</a></h5>
+                <span><i class="fa fa-eye"></i> Arther De Makaya </br>Animal ka gwapa ni Harley Queen. </span>
+            </div>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-4.png" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="html_movie/Ghosted.html#col-lg-8">Ghosted</a></h5>
+                <span><i class="fa fa-eye"></i> Manta S. Kawarison </br>Sarap sarap sarap mo sapakin first commentor.</span>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Product Section End -->
+
+<!-- Footer Section Begin -->
+<footer class="footer">
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+    </div>
+    <div class="mantastyle">
+        <h5> About Us</h5>
+        <p> This website was created by <b style="color:red;">Daryl Roy M. Santurdio</b>, and all of the movies are in HD quality and load quickly.<br> Please help support this movie website because it is the official movie website in the Philippines.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__logo">
+
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="footer__nav">
+                    <ul>
+                        <li class="active"><a href="./index.html">Homepage</a></li>
+                        <li><a href="./Privacy-Policy.html">Privacy Policy</a></li>
+                        <li><a href="./blog.html">Our Blog</a></li>
+                        <li><a href="./Contact.html">Contacts</a></li>
+                    </ul>
+ 
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+        
+  
+
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <!-- Search model Begin -->
+  <div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch"><i class="icon_close"></i></div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search model end -->
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/player.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+
+<style>
+    .mantastyle{
+        text-align: center;
+      
+    }
+    .mantastyle h5 {
+        color:white;
+        margin:0 0 10px 10px;
+    }
+    .mantastyle p{
+        color:#b7b7b7;
+    }
+
+</style>
+</body>
+
+</html>
