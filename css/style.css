@@ -41,14 +41,14 @@ body {
 }
 /* pop up css*/
 /*THIS IS DESIGN TXT SANTURDIO DARYL*/
-svg {
+#Mates {
 	font-family: 'Russo One', sans-serif;
 	position: absolute; 
 	width: 100%; height: 100%;
 	margin-left:-50px;
 	margin-bottom: -25%;;
   }
-  svg text {
+  #Mates text {
 	text-transform: uppercase;
 	animation: stroke 7s ;
 	stroke-width: 6;
@@ -75,12 +75,13 @@ svg {
 		display: none
 	};
 }
-.modalDialog .DarylCode img{
+.modalDialog .DarylCode .profileko{
 	max-width: 250px;
 	border-radius: 50%;
 	border:rgba(54,95,160,1) 4px solid;
 	margin-left: -15%;
 }
+
 
 .modalDialog {
   position: fixed;
