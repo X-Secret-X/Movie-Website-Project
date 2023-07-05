@@ -40,8 +40,34 @@ body {
 	background: #010f0d;
 }
 /* pop up css*/
+/*THIS IS DESIGN TXT SANTURDIO DARYL*/
+svg {
+	font-family: 'Russo One', sans-serif;
+	position: absolute; 
+	width: 100%; height: 100%;
+	margin-left:-50px;
+	margin-bottom: -25%;;
+  }
+  svg text {
+	text-transform: uppercase;
+	animation: stroke 7s ;
+	stroke-width: 6;
+	stroke: #365fa0;
+	font-size: 140px;
 
-
+  }
+  @keyframes stroke {
+	0%   {
+	  fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+	  stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1); stroke-width: 6; }
+	100% {
+	  fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0); 
+	  stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+  }
 
 
 @media screen and (max-width:450px){
@@ -50,7 +76,10 @@ body {
 	};
 }
 .modalDialog .DarylCode img{
-	max-width: 600px;
+	max-width: 250px;
+	border-radius: 50%;
+	border:rgba(54,95,160,1) 4px solid;
+	margin-left: -15%;
 }
 
 .modalDialog {
@@ -65,7 +94,7 @@ body {
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
   pointer-events: none;
-  background-color: #000302de;
+  background-color: #000302f1;
 }
 .modalDialog:target {
   opacity: 1;
@@ -88,9 +117,9 @@ body {
   color: #FFFFFF;
   line-height: 25px;
   position: absolute;
-  right: -12px;
   text-align: center;
-  top: -10px;
+  top: -12px;
+  left: -80px;
   width: 24px;
   text-decoration: none;
   font-weight: bold;
@@ -100,6 +129,8 @@ body {
   -moz-box-shadow: 1px 1px 3px #000;
   -webkit-box-shadow: 1px 1px 3px #000;
   box-shadow: 1px 1px 3px #000;
+  border:solid rgba(54,95,160,1) 4px;
+  background-color: rgba(54,95,160,1);
 }
 .close:hover {
   background: #00d9ff;
