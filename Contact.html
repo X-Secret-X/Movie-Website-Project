@@ -28,9 +28,15 @@
 
 <body>
     <!-- Page Preloder -->
+    <!-- Page Preloder -->
     <div id="preloder">
-        <div class="loader"></div>
+        <div class="img1">   <img src="img/logo.png"/></div>
+     
+        <div class="loader">
+            
+        </div>
     </div>
+
 
     <!-- Header Section Begin -->
     <header class="header" id="headerme" style="position: sticky;top: 0;z-index: 99999; ">
@@ -79,29 +85,38 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="blog__details__title">
-                        <h6> <span> June 01, 2023</span></h6>
+                  
                         <h2>Contact - Us</h2>
                         <div class="col-lg-12">
                             <div class="blog__details__pic">
                                 <img src="img/blog/details/blog-details-pic.jpg" alt="">
                             </div>
                         </div>
-                        <div class="blog__details__social">
-                            <a href="#" class="facebook"><i class="fa fa-facebook-square"></i> Facebook</a>
-                            <a href="#" class="pinterest"><i class="fa fa-pinterest"></i> Pinterest</a>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin-square"></i> Linkedin</a>
-                            <a href="#" class="twitter"><i class="fa fa-twitter-square"></i> Twitter</a>
-                        </div>
+
                     </div>
                 </div>
                 
                 <div class="col-lg-8">
                     <div class="blog__details__content">
-                        <div class="blog__details__text">
-                            <p>We will be happy to hear from you. Contact us for any queries or concerns. Send us a message on our social media or business email.
-                                    <br><br>
-                                <b>Facebook Page:</b><a style="color:red;"> https://www.facebook.com/DarylSanturdio</a> <br>
-                                <b>Email Us: </b><a style="color:red;">DarSanturdio19@gmail.com</a></p>
+                        <div class="blog__details__text" style="justify-content: center;">
+                            <p>To quickly find answers to questions about Movies Anywhere, type your question in the search bar above or on the home page.<br><br>
+
+                                We will be happy to hear from you. Contact us for any queries or concerns. Send us a message on our social media or business email.
+                                <br><br>
+                 
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp➣ Phone: <span >(+63) 975-178-1635<br></span>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp➣ Email:<a href="https://mail.google.com" target="_blank" > Dsanturdio18@gmail.com<br></a>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp➣ Chat: If you’re on a desktop computer, you can live chat with a Movies Anywhere agent <br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspby choosing the Chat option below.
+                                <br><br>
+                                For business inquiries, please use the following contacts:<br><br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp➣ Phone: <span >(+63) 975-178-1635<br></span>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp➣ Email: <a href="https://mail.google.com" target="_blank">Dsanturdio18@gmail.com<br></a>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp➣ Facebook Page: <a href="https://www.facebook.com/darylroys/" target="_blank">Daryl Santurdio Admin Account</a><br><br>
+                                Legal and Privacy — Please review our Legal Notices, Privacy Policy, and Terms of Use.</p>
+
+                        
+
                         </div>
                         
                     </div>
@@ -161,6 +176,65 @@
         <script src="js/jquery.slicknav.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
+<script>
+var words = ['Hi i like HTML', 'I also like css', 'Lorem ipsum dolor sit amet', ' consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'],
+    part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 15,
+    speed = 70;
+var wordflick = function () {
+  setInterval(function () {
+    if (forwards) {
+      if (offset >= words[i].length) {
+        ++skip_count;
+        if (skip_count == skip_delay) {
+          forwards = false;
+          skip_count = 0;
+        }
+      }
+    }
+    else {
+      if (offset == 0) {
+        forwards = true;
+        i++;
+        offset = 0;
+        if (i >= len) {
+          i = 0;
+        }
+      }
+    }
+    part = words[i].substr(0, offset);
+    if (skip_count == 0) {
+      if (forwards) {
+        offset++;
+      }
+      else {
+        offset--;
+      }
+    }
+    $('.word').text(part);
+  },speed);
+};
+
+$(document).ready(function () {
+  wordflick();
+});
+
+</script>
+
+<style>
+
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 1.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+</style>
 
     </body>
 
